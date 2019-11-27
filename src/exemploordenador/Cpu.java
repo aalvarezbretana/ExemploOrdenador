@@ -9,7 +9,7 @@ package exemploordenador;
  *
  * @author aalvarezbretana
  */
-public class CPU {
+public class Cpu {
 
     private int speed;
     private int memory;
@@ -19,7 +19,7 @@ public class CPU {
      * @param speed
      * @param memory
      */
-    public CPU(int speed, int memory) {
+    public Cpu(int speed, int memory) {
         this.speed = speed;
         this.memory = memory;
     }
@@ -27,7 +27,7 @@ public class CPU {
     /**
      *constructor without parameters of the class cpu
      */
-    public CPU() {
+    public Cpu() {
 
     }
 

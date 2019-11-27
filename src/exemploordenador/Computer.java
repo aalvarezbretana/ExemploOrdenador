@@ -13,7 +13,7 @@ public class Computer {
 
     private Mouse mouse = new Mouse();
     private Screen screen = new Screen();
-    private CPU cpu = new CPU();
+    private Cpu cpu = new Cpu();
 
     /**
      *constructor withou parameters of the class computer
@@ -27,7 +27,7 @@ public class Computer {
      * @param screen
      * @param cpu
      */
-    public Computer(Mouse mouse, Screen screen, CPU cpu) {
+    public Computer(Mouse mouse, Screen screen, Cpu cpu) {
         this.mouse = mouse;
         this.screen = screen;
         this.cpu = cpu;
@@ -69,7 +69,7 @@ public class Computer {
      *get the values of cpu
      * @return
      */
-    public CPU getCpu() {
+    public Cpu getCpu() {
         return cpu;
     }
 
@@ -77,7 +77,7 @@ public class Computer {
      *sets values to cpu
      * @param cpu
      */
-    public void setCpu(CPU cpu) {
+    public void setCpu(Cpu cpu) {
         this.cpu = cpu;
     }
 

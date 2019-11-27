@@ -32,7 +32,7 @@ public class ExampleComputer {
         int memory = sc.nextInt();
         Mouse mouse = new Mouse(type);
         Screen screen = new Screen(brand, inches);
-        CPU cpu = new CPU(speed, memory);
+        Cpu cpu = new Cpu(speed, memory);
         Computer computer = new Computer(mouse, screen, cpu);
         computer.see();
 
