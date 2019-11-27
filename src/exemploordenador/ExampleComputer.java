@@ -8,32 +8,33 @@ package exemploordenador;
 import java.util.Scanner;
 
 /**
- *
+ *Main class ExampleComputer
+ * 
  * @author aalvarezbretana
  */
-public class ExemploOrdenador {
+public class ExampleComputer {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner teclado = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Tipo do rato?");
-        String tipo = teclado.nextLine();
+        String type = sc.nextLine();
         System.out.println("Marca pantalla?");
-        String marca = teclado.nextLine();
+        String brand = sc.nextLine();
         System.out.println("Pulgadas pantalla?");
-        float pulgadas = teclado.nextFloat();
+        float inches = sc.nextFloat();
         System.out.println("Velocidade cpu?(en Mhz)");
-        int velocidade = teclado.nextInt();
+        int speed = sc.nextInt();
         System.out.println("Memoria cpu(en GB)");
-        int memoria = teclado.nextInt();
-        Rato rato = new Rato(tipo);
-        Pantalla pantalla = new Pantalla(marca, pulgadas);
-        CPU cpu = new CPU(velocidade, memoria);
-        Ordenador ordenador = new Ordenador(rato, pantalla, cpu);
-        ordenador.amosar();
+        int memory = sc.nextInt();
+        Mouse mouse = new Mouse(type);
+        Screen screen = new Screen(brand, inches);
+        CPU cpu = new CPU(speed, memory);
+        Computer computer = new Computer(mouse, screen, cpu);
+        computer.see();
 
     }
 

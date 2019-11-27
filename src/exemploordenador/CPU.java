@@ -11,32 +11,56 @@ package exemploordenador;
  */
 public class CPU {
 
-    private int velocidade;
-    private int memoria;
+    private int speed;
+    private int memory;
 
-    public CPU(int velocidade, int memoria) {
-        this.velocidade = velocidade;
-        this.memoria = memoria;
+    /**
+     *constructor with parameters of the class cpu 
+     * @param speed
+     * @param memory
+     */
+    public CPU(int speed, int memory) {
+        this.speed = speed;
+        this.memory = memory;
     }
 
+    /**
+     *constructor without parameters of the class cpu
+     */
     public CPU() {
 
     }
 
-    public int getVelocidade() {
-        return velocidade;
+    /**
+     *get the values of speed
+     * @return
+     */
+    public int getSpeed() {
+        return speed;
     }
 
-    public void setVelocidade(int velocidade) {
-        this.velocidade = velocidade;
+    /**
+     *set value of speed
+     * @param speed
+     */
+    public void setSpeed(int speed) {
+        this.speed = speed;
     }
 
-    public int getMemoria() {
-        return memoria;
+    /**
+     *get the values of memory
+     * @return
+     */
+    public int getMemory() {
+        return memory;
     }
 
-    public void setMemoria(int memoria) {
-        this.memoria = memoria;
+    /**
+     *set value of memory
+     * @param memory
+     */
+    public void setMemory(int memory) {
+        this.memory = memory;
     }
 
 }
