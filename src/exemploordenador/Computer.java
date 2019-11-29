@@ -6,7 +6,7 @@
 package exemploordenador;
 
 /**
- *
+ *Class Computer used to create objets(computers) made out of other objects
  * @author aalvarezbretana
  */
 public class Computer {

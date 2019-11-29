@@ -6,7 +6,8 @@
 package exemploordenador;
 
 /**
- *
+ *Class Mouse used to create the objects(mice) used to create a computer
+ * 
  * @author aalvarezbretana
  */
 public class Mouse {

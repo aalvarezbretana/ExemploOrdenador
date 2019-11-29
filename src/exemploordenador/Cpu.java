@@ -6,7 +6,8 @@
 package exemploordenador;
 
 /**
- *
+ *Class Cpu used to create the objects(cpus) used to create a computer
+ * 
  * @author aalvarezbretana
  */
 public class Cpu {

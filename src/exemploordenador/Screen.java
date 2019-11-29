@@ -6,7 +6,8 @@
 package exemploordenador;
 
 /**
- *
+ *Class Screen used to create the objects(screens) used to create a computer
+ * 
  * @author aalvarezbretana
  */
 public class Screen {
